@@ -1,0 +1,42 @@
+.logo {
+    width: 20vh;
+    margin-right: 1em;
+}
+
+.imagem_nav {
+    width: 3vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.esquerda_inicio {
+    display: flex;
+    margin-left: 4em;
+    column-gap: 1em;
+    align-items: center;
+    list-style: none;
+}
+
+.direita_inicio {
+    display: flex;
+    column-gap: 1em;
+    margin-right: 5em;
+    align-items: center;
+    list-style: none;
+}
+
+.esquerda_menu {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.esquerda_menu:hover {
+    color: var(--vermelho);
+}
+

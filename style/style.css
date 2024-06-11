@@ -1,0 +1,105 @@
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #c0c0c0;
+    --cinza-hover: #7e7e7e;
+    --vermelho: #c00000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: var(--branco);
+    background-color: var(--preto);
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 5%,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.principal {
+    margin-top: 6em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.principal_imagem {
+    width: 25em;
+    height: 10em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+.principal_texto {
+    color: var(--branco);
+    margin-left: 5em;
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.principal_botoes {
+    display: flex;
+    margin-left: 5em;
+    gap: 1em;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    padding: .2em 2em;
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 700;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.botao_um {
+    background-color: var(--branco);
+}
+
+.botao:hover {
+    background-color: var(--cinza-hover);
+}
+
+
+.botao_imagem {
+    width: 2vh;
+    justify-self: flex-start;
+}
+
+.botao_imagem__um {
+    width: 2vh;
+}
+
+.botao_dois {
+    background-color: var(--cinza);
+    color: var(--branco);
+    padding: .5em 3em;
+    border: solid transparent;
+}
+
+
+

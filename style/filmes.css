@@ -1,0 +1,55 @@
+.minha_lista {
+    margin: 0 4em;
+    margin-top: 8.5em;
+}
+
+.minha_lista_titulo {
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.lista_item {
+    cursor: pointer;
+}
+
+.lista_item:hover {
+    transform: scale(1.07);
+}
+
+.lista_fotos {
+    height: 8.3em;
+}
+
+.slider {
+    display: flex;
+    margin-bottom: 2em;
+    column-gap: .7em;
+    overflow-x: scroll;
+    
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.lista_dois {
+    margin-top: 3em;
+}
+
+.seta {
+    height: 2em;
+    position: absolute;
+    cursor: pointer;
+}
+
+.seta_esquerda {
+    left: 2.5em;
+    top: 112%;
+}
+
+.seta_direita {
+    right: 2.5em;
+    top: 112%;
+}

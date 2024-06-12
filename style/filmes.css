@@ -37,19 +37,3 @@
 .lista_dois {
     margin-top: 3em;
 }
-
-.seta {
-    height: 2em;
-    position: absolute;
-    cursor: pointer;
-}
-
-.seta_esquerda {
-    left: 2.5em;
-    top: 112%;
-}
-
-.seta_direita {
-    right: 2.5em;
-    top: 112%;
-}

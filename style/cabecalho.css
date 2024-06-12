@@ -33,7 +33,7 @@
     text-decoration: none;
     color: var(--branco);
     font-weight: 200;
-    font-size: 14px;
+    font-size: .9em;
 }
 
 .esquerda_menu:hover {

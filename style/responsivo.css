@@ -1,0 +1,91 @@
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-size: auto;
+        background-position: center;
+    }
+
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        margin-top: .5em;
+    }
+
+    .esquerda_inicio {
+        margin-left: 2em;
+    }
+
+    .direita_inicio {
+        margin-right: 2em;
+    }
+    
+    .logo {
+        width: 10vh;
+    }
+
+    .esquerda_menu{
+
+    }
+}
+
+/*Celular*/
+@media screen and (max-width: 767px) {
+    body {
+        width: 100vh;
+        background-size: 227vh;
+        background-position: center;
+    }
+
+    .principal {
+        margin-top: 3em;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .principal_imagem {
+        width: 35em;
+        height: 14em;
+    }
+
+    .principal_texto {
+        font-size: 1.4em;
+        align-self: flex-start;
+        margin-left: 4em;
+    }
+
+    .principal_botoes {
+        flex-direction: column;
+    }
+
+    .botao_um {
+        padding: 1.5em 10em;
+        font-size: 1.4em;
+    }
+
+    .botao_dois {
+        padding: 1.3em 7.4em;
+        font-size: 1.4em;
+    }
+
+    .botao_imagem {
+        width: 3vh;
+    }
+
+    .minha_lista {
+
+    }
+
+    .minha_lista_titulo {
+        font-size: 1.5em;
+    }
+
+    .lista_fotos {
+        height: 10em;
+    }
+    
+}

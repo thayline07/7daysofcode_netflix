@@ -27,6 +27,7 @@
     margin-bottom: 2em;
     column-gap: .7em;
     overflow-x: scroll;
+    scroll-behavior: smooth;
     
 }
 

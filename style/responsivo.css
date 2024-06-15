@@ -78,8 +78,6 @@
     .principal_botoes {
         flex-direction: column;
         text-align: center;
-        margin-left: 4em;
-        margin-right: 4em;
     }
 
     .botao_um {

@@ -53,6 +53,7 @@
     .principal {
         margin-top: 20em;
         height: 100vh;
+        text-align: center;
     }
 
     .container {
@@ -64,15 +65,11 @@
     .principal_imagem {
         width: 35em;
         height: 14em;
-        margin-left: 4em;
-        margin-right: 4em;
     }
 
     .principal_texto {
         font-size: 1.4em;
         align-self: flex-start;
-        margin-left: 4em;
-        margin-right: 4em;
     }
 
     .principal_botoes {

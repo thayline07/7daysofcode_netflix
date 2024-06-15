@@ -48,7 +48,8 @@
       url(../img/banner.png);
         background-position-x: left;
         background-position-y: 2em;
-        overflow: hidden;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .principal {
@@ -70,7 +71,6 @@
     .principal_texto {
         font-size: 1.4em;
         align-self: flex-start;
-        margin-left: 4em;
     }
 
     .principal_botoes {
@@ -93,7 +93,6 @@
 
     .minha_lista {
         margin-top: 6em;
-        margin-right: 2em;
     }
 
     .minha_lista_titulo {
@@ -120,9 +119,6 @@
         display:none;
     }
 
-    .direita_inicio { 
-        margin-right: 3em;
-    }
 
     .logo {
         margin-left: .5em;

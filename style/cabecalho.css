@@ -7,7 +7,7 @@
     width: 3vh;
 }
 
-.cabecalho {
+.nav {
     display: flex;
     justify-content: space-between;
     margin-top: 1em;

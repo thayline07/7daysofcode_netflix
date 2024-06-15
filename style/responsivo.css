@@ -48,8 +48,6 @@
       url(../img/banner.png);
         background-position-x: left;
         background-position-y: 2em;
-        margin-left: 4em;
-        margin-right: 4em;
     }
 
     .principal {
@@ -66,15 +64,21 @@
     .principal_imagem {
         width: 35em;
         height: 14em;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .principal_texto {
         font-size: 1.4em;
         align-self: flex-start;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .principal_botoes {
         flex-direction: column;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .botao_um {
@@ -93,6 +97,8 @@
 
     .minha_lista {
         margin-top: 6em;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .minha_lista_titulo {
@@ -118,7 +124,6 @@
     .link_menu {
         display:none;
     }
-
 
     .logo {
         margin-left: .5em;
